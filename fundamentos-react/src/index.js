@@ -2,18 +2,18 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import ComFilhos from './components/ComFilhos'
+import Card from './components/layout/Card'
+import Primeiro from './components/Primeiro'
 
 ReactDOM.render (
     <div>
-        <ComFilhos>
-            <ul>
-                <li>Ana</li>
-                <li>Bia</li>
-                <li>Carslos</li>
-                <li>Daniel</li>
-            </ul>
-        </ComFilhos>
+        <Card titulo="Primeiro componente">
+            <Primeiro/>
+        </Card>
+        
+        <Card titulo="Segundo componente">
+            Conteúdo 2
+        </Card>
     </div>,
 
     document.getElementById('root') 
