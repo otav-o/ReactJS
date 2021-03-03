@@ -10,7 +10,9 @@ ReactDOM.render (
         <Primeiro/>
         <ComParametro titulo="Esse é o título"
          subtitulo="Esse é o subtítulo"></ComParametro>
-    </div>, // lembrando que não pode jogar no root dois elementos adjacentes
+
+         <ComParametro titulo="Oi" subtitulo="Ola"/> 
+    </div>, // duas instâncias do componente
 
     document.getElementById('root') 
 )
