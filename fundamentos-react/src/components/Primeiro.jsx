@@ -1,6 +1,14 @@
 import React from 'react'
 
-function Primeiro() {
+
+export default () =>
+    <>
+        <h1>Primeiro Componente (Arrow)</h1>
+        <h2>Exemplo de um componente React</h2>
+    </>
+    
+/*
+export default () => { // arrow function
     return (
         <>
             <h1>Primeiro Componente</h1>
@@ -9,4 +17,13 @@ function Primeiro() {
     )
 }
 
-export default Primeiro
+export default function () { // função anônima
+    return (
+        <>
+            <h1>Primeiro Componente</h1>
+            <h2>Exemplo de um componente React</h2>
+        </>
+    )
+}
+*/
+
