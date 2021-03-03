@@ -2,7 +2,9 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Primeiro from './components/Primeiro'
+
 ReactDOM.render (
-    <h1>Olá React!</h1>, // recebe o elemento que se quer renderizar
+    <Primeiro></Primeiro>, // componente criado
     document.getElementById('root') // onde o componente vai ser renderizado
 )
