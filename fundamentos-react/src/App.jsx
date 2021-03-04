@@ -5,9 +5,15 @@ import Card from './components/layout/Card'
 import Primeiro from './components/Primeiro'
 import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
+import Repeticao from './components/layout/Repeticao' // os diretórios estão todos desorganizados
 
 export default (props) => (
     <div className='App'>
+
+        <Card titulo="Componente de produtos">
+            <Repeticao/>
+        </Card>
+
         <Card titulo="Componente com filhos">
             <ComFilhos>
                 <ul>
@@ -22,7 +28,7 @@ export default (props) => (
         <Card titulo="Componente com parâmetro">
             <ComParametro titulo='titulo' subtitulo='subtitulo'></ComParametro>
         </Card>
-        
+
         <Card titulo="Primeiro componente">
             <Primeiro/>
         </Card>
