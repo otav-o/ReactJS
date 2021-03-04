@@ -7,9 +7,14 @@ import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
 import Repeticao from './components/layout/Repeticao' // os diretórios estão todos desorganizados
 import Condicional from './components/layout/Condicional'
+import CondicionalComIf from './components/layout/CondicionalComIf'
 
 export default (props) => (
     <div className='App'>
+
+        <Card titulo="CondicionalComIf">
+            <CondicionalComIf numero={11}></CondicionalComIf>
+        </Card>
 
         <Card titulo="Condicional">
             <Condicional numero={3}></Condicional>
