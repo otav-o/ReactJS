@@ -5,7 +5,8 @@ export default props => {
 
     function getProdutosDaLista() {
         return produtos.map(prod => { // map é para transformar em trecho de jsx
-            return <li>{prod.id} - {prod.nome} R${prod.preco}</li>
+            return <li key={prod.id}>
+                {prod.id} - {prod.nome} R${prod.preco}</li>
         })
     } // iteração
     return (
